@@ -45,6 +45,7 @@ public class ClockHandler : MonoBehaviour {
         {
             //Debug.Log(m_currentTime.ToString("HH:mm:ss"));
             Debug.Log(m_currentTime.TimeOfDay);
+            Debug.Log(m_currentTime);
         }
 
         // Check if an alarm should go off
